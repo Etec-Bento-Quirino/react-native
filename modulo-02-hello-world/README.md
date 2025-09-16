@@ -1432,7 +1432,19 @@ No próximo módulo, você aprenderá a:
 - Implementar arquiteturas escaláveis
 - Organizar código de forma eficiente
 
-## 📚 Recursos Adicionais
+## 🚀 **Próximos Passos**
+
+No próximo módulo, exploraremos **[Flux e Redux](../modulo-03-flux-redux/README.md)**, aprendendo gerenciamento de estado global em aplicações React Native.
+
+## 🔗 **Navegação**
+
+- ⬅️ **[README Principal](../../README.md)** - Voltar ao curso principal
+- 📚 **[Guia de Tutoriais](../../TUTORIAIS.md)** - Tutoriais estruturados
+- 🚀 **[Guia de Início](../../INICIO.md)** - Começar o curso
+- ⬅️ **[Módulo 1: Fundamentos](../modulo-01-fundamentos-react/README.md)** - Módulo anterior
+- ➡️ **[Módulo 3: Flux e Redux](../modulo-03-flux-redux/README.md)** - Próximo módulo
+
+## 📚 **Recursos Adicionais**
 
 - [Documentação Expo](https://docs.expo.dev/)
 - [React Native Docs](https://reactnative.dev/)
@@ -1440,5 +1452,6 @@ No próximo módulo, você aprenderá a:
 
 ---
 
-**Professor:** Jackson Sá  
-**ETEC Bento Quirino - Campinas/SP**
+**Desenvolvido com ❤️ para a comunidade de desenvolvimento mobile brasileira**
+
+_ETEC Bento Quirino - Curso Completo de React Native_

@@ -1,318 +1,254 @@
-# 📚 Tutoriais Passo a Passo - React Native
+# 📚 Tutoriais - Curso Completo de React Native
 
 **Professor:** Jackson Sá  
-\*\*ETEC Bento Quirino - Campinas/SP
+**Instituição:** ETEC Bento Quirino - Campinas/SP  
+**Baseado em:** React Native, JavaScript ES6+ e melhores práticas de desenvolvimento mobile
 
 ---
 
-## 🎯 Como Usar Este Material
+## 🎯 **Guia de Tutoriais Práticos**
 
-Este documento contém tutoriais práticos para cada módulo do curso. Cada tutorial guia você através da criação de um projeto completo, aplicando os conceitos aprendidos.
+Este guia fornece uma sequência estruturada de tutoriais práticos para acompanhar o curso de React Native. Cada tutorial inclui teoria, implementação e exercícios práticos.
 
-### 📋 Pré-requisitos
+## 📋 **Índice de Tutoriais**
 
-- Node.js (versão 16 ou superior)
-- npm ou yarn
-- Expo CLI
-- Editor de código (VS Code recomendado)
-- Dispositivo móvel com Expo Go (opcional)
+### **Módulo 1: 🏗️ [Fundamentos do React](./modulo-01-fundamentos/README.md)**
 
-### 🚀 Estrutura dos Tutoriais
+- **Tutorial 1.1**: Introdução ao React e Virtual DOM
+- **Tutorial 1.2**: Componentes e JSX
+- **Tutorial 1.3**: Props e State
+- **Tutorial 1.4**: Eventos e formulários
+- **Tutorial 1.5**: Projeto prático - App contador
 
-Cada tutorial segue esta estrutura:
+### **Módulo 2: 🌍 [Hello World - Primeira App](./modulo-02-hello-world/README.md)**
 
-1. **Configuração do Projeto** - Setup inicial
-2. **Estrutura de Pastas** - Organização do código
-3. **Implementação Passo a Passo** - Código detalhado
-4. **Testes e Validação** - Verificação do funcionamento
-5. **Exercícios de Extensão** - Desafios adicionais
+- **Tutorial 2.1**: Configuração do ambiente React Native
+- **Tutorial 2.2**: Estrutura de projeto e componentes básicos
+- **Tutorial 2.3**: StyleSheet e layout
+- **Tutorial 2.4**: Navegação simples
+- **Tutorial 2.5**: Projeto prático - App de boas-vindas
 
----
+### **Módulo 3: 🔄 [Flux e Redux](./modulo-03-flux-redux/README.md)**
 
-## 📱 Módulo 1: Fundamentos do React
+- **Tutorial 3.1**: Gerenciamento de estado em React Native
+- **Tutorial 3.2**: Arquitetura Flux
+- **Tutorial 3.3**: Implementação Redux
+- **Tutorial 3.4**: Middlewares e side effects
+- **Tutorial 3.5**: Projeto prático - Sistema de estado global
 
-### Projeto: App de Perfil de Usuário
+### **Módulo 4: 🎨 [Interface do Usuário](./modulo-04-interface-usuario/README.md)**
 
-**Objetivo:** Criar uma aplicação web com React que demonstre componentes, estado e props.
+- **Tutorial 4.1**: Layout e flexbox em React Native
+- **Tutorial 4.2**: Componentes de UI básicos
+- **Tutorial 4.3**: Animações com Animated API
+- **Tutorial 4.4**: Temas e estilização responsiva
+- **Tutorial 4.5**: Projeto prático - Interface completa
 
-**Funcionalidades:**
+### **Módulo 5: 📱 [Capacidades do Dispositivo](./modulo-05-capacidades-dispositivo/README.md)**
 
-- Perfil de usuário com foto
-- Lista de tarefas interativa
-- Edição de informações
-- Componentes reutilizáveis
+- **Tutorial 5.1**: Acesso à câmera e galeria
+- **Tutorial 5.2**: Localização e mapas
+- **Tutorial 5.3**: Notificações push
+- **Tutorial 5.4**: Sensores e recursos nativos
+- **Tutorial 5.5**: Projeto prático - App com recursos nativos
 
-**Tecnologias:** React, Styled Components
+### **Módulo 6: 🌐 [Comunicação com Servidores](./modulo-06-comunicacao-servidores/README.md)**
 
-**Tempo estimado:** 2-3 horas
+- **Tutorial 6.1**: HTTP requests com Fetch e Axios
+- **Tutorial 6.2**: Autenticação e autorização
+- **Tutorial 6.3**: WebSockets e comunicação em tempo real
+- **Tutorial 6.4**: Cache e sincronização offline
+- **Tutorial 6.5**: Projeto prático - App com backend
 
-[Ver Tutorial Completo](./modulo-01-fundamentos-react/README.md#tutorial-prático-app-de-perfil-de-usuário)
+### **Módulo 7: 🔗 [Native Bridging](./modulo-07-native-bridging/README.md)**
 
----
+- **Tutorial 7.1**: Módulos nativos customizados
+- **Tutorial 7.2**: Bridge JavaScript-Native
+- **Tutorial 7.3**: Bibliotecas de terceiros
+- **Tutorial 7.4**: Performance e otimização
+- **Tutorial 7.5**: Projeto prático - Funcionalidade customizada
 
-## 📱 Módulo 2: Hello World com React Native
+### **Módulo 8: 🧪 [Testes](./modulo-08-testes/README.md)**
 
-### Projeto: App de Boas-vindas
+- **Tutorial 8.1**: Testes unitários com Jest
+- **Tutorial 8.2**: Testes de integração
+- **Tutorial 8.3**: Testes E2E com Detox
+- **Tutorial 8.4**: Mocking e stubbing
+- **Tutorial 8.5**: Projeto prático - App com testes
 
-**Objetivo:** Criar sua primeira aplicação mobile com React Native usando Expo.
+### **Módulo 9: 🚀 [Produção](./modulo-09-producao/README.md)**
 
-**Funcionalidades:**
+- **Tutorial 9.1**: Build e deploy com EAS
+- **Tutorial 9.2**: App Store e Google Play
+- **Tutorial 9.3**: CI/CD para mobile
+- **Tutorial 9.4**: Monitoramento e analytics
+- **Tutorial 9.5**: Projeto prático - App publicado
 
-- Tela de boas-vindas personalizada
+### **Módulo 10: 🌟 [Ecossistema](./modulo-10-ecossistema/README.md)**
+
+- **Tutorial 10.1**: Bibliotecas essenciais do React Native
+- **Tutorial 10.2**: Ferramentas de desenvolvimento
+- **Tutorial 10.3**: Debugging e profiling
+- **Tutorial 10.4**: Boas práticas e padrões
+- **Tutorial 10.5**: Projeto prático - Stack completo
+
+## 🛠️ **Estrutura dos Tutoriais**
+
+### **Formato Padrão**
+
+Cada tutorial segue uma estrutura consistente:
+
+```
+📚 **Teoria**
+├── Conceitos fundamentais
+├── Exemplos práticos
+└── Boas práticas
+
+💻 **Implementação**
+├── Código passo a passo
+├── Explicações detalhadas
+└── Comentários explicativos
+
+🧪 **Exercícios**
+├── Exercícios básicos
+├── Desafios intermediários
+└── Projetos práticos
+
+✅ **Validação**
+├── Testes unitários
+├── Verificação manual
+└── Code review
+```
+
+### **Objetivos por Tutorial**
+
+- ✅ **Compreensão**: Entender os conceitos teóricos
+- ✅ **Implementação**: Codificar soluções funcionais
+- ✅ **Prática**: Aplicar conhecimento em projetos
+- ✅ **Validação**: Verificar qualidade do código
+- ✅ **Aplicação**: Usar em cenários reais
+
+## 🎯 **Metodologia de Estudo**
+
+### **Sequência Recomendada**
+
+1. **📖 Leia a teoria** - Compreenda os conceitos
+2. **💻 Implemente o código** - Siga os exemplos
+3. **🧪 Faça os exercícios** - Pratique o aprendizado
+4. **✅ Execute os testes** - Valide sua implementação
+5. **🔄 Revise e melhore** - Refine seu código
+
+### **Dicas de Estudo**
+
+- **⏰ Tempo**: Dedique 2-3 horas por tutorial
+- **💻 Prática**: Código todos os dias
+- **🤝 Colaboração**: Discuta com outros estudantes
+- **📚 Documentação**: Consulte sempre a documentação oficial
+- **🔍 Debugging**: Aprenda a debugar problemas
+
+## 📊 **Progresso e Avaliação**
+
+### **Checklist de Progresso**
+
+Para cada módulo, complete:
+
+- ✅ **Tutoriais**: Todos os tutoriais implementados
+- ✅ **Exercícios**: Exercícios básicos e avançados
+- ✅ **Projeto**: Projeto prático do módulo
+- ✅ **Testes**: Todos os testes passando
+- ✅ **Documentação**: README atualizado
+
+### **Critérios de Aprovação**
+
+- ✅ **70% dos tutoriais** completos
+- ✅ **80% dos exercícios** implementados
+- ✅ **Projetos práticos** funcionais
+- ✅ **Testes passando** em todos os módulos
+- ✅ **Documentação** completa e clara
+
+## 🚀 **Projetos Integradores**
+
+### **Projeto 1: App de Contador (Módulo 1)**
+- Implementação de componentes básicos
+- Gerenciamento de estado local
+- Eventos e interações
+
+### **Projeto 2: App de Boas-vindas (Módulo 2)**
 - Navegação entre telas
-- Calculadora básica
-- Perfil de usuário
+- Personalização de usuário
+- Persistência de dados
 
-**Tecnologias:** React Native, Expo, React Navigation
+### **Projeto 3: Sistema de Estado (Módulo 3)**
+- Redux implementado
+- Actions e reducers
+- Middleware para side effects
 
-**Tempo estimado:** 3-4 horas
-
-[Ver Tutorial Completo](./modulo-02-hello-world/README.md#tutorial-prático-app-de-boas-vindas-com-react-native)
-
----
-
-## 📱 Módulo 3: Flux e Redux
-
-### Projeto: App de Gerenciamento de Tarefas
-
-**Objetivo:** Implementar gerenciamento de estado com Redux em uma aplicação React Native.
-
-**Funcionalidades:**
-
-- Lista de tarefas com Redux
-- Filtros e categorias
-- Persistência local
-- Sincronização entre telas
-
-**Tecnologias:** React Native, Redux, Redux Toolkit
-
-**Tempo estimado:** 4-5 horas
-
-[Ver Tutorial Completo](./modulo-03-flux-redux/README.md#tutorial-prático-app-de-gerenciamento-de-tarefas)
-
----
-
-## 📱 Módulo 4: Interface do Usuário
-
-### Projeto: App de E-commerce Mobile
-
-**Objetivo:** Criar uma interface completa com navegação, listas e animações.
-
-**Funcionalidades:**
-
-- Catálogo de produtos
-- Carrinho de compras
-- Sistema de navegação
+### **Projeto 4: Interface Completa (Módulo 4)**
+- Design responsivo
 - Animações fluidas
+- Temas personalizáveis
 
-**Tecnologias:** React Native, React Navigation, Animated API
+### **Projeto 5: App Nativo (Módulo 5)**
+- Integração com câmera
+- Localização e mapas
+- Notificações push
 
-**Tempo estimado:** 5-6 horas
+### **Projeto 6: App Conectado (Módulo 6)**
+- API integration
+- Autenticação
+- Sincronização offline
 
-[Ver Tutorial Completo](./modulo-04-interface-usuario/README.md#tutorial-prático-app-de-e-commerce-mobile)
+### **Projeto 7: Funcionalidade Custom (Módulo 7)**
+- Native modules
+- Performance otimizada
+- Bibliotecas de terceiros
 
----
+### **Projeto 8: App Testado (Módulo 8)**
+- Cobertura de testes
+- Testes E2E
+- CI/CD implementado
 
-## 📱 Módulo 5: Capacidades do Dispositivo
+### **Projeto 9: App Publicado (Módulo 9)**
+- Deploy nas stores
+- Monitoramento
+- Analytics implementado
 
-### Projeto: App de Localização e Mapas
+### **Projeto 10: Stack Completo (Módulo 10)**
+- Ecossistema completo
+- Boas práticas aplicadas
+- Performance otimizada
 
-**Objetivo:** Integrar funcionalidades nativas do dispositivo como GPS e mapas.
+## 📚 **Recursos de Apoio**
 
-**Funcionalidades:**
+### **Documentação Oficial**
 
-- Mapa interativo
-- Geolocalização
-- Marcadores personalizados
-- Armazenamento local
+- [React Native Docs](https://reactnative.dev/)
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Documentation](https://react.dev/)
+- [Redux Documentation](https://redux.js.org/)
 
-**Tecnologias:** React Native, React Native Maps, AsyncStorage
+### **Comunidade**
 
-**Tempo estimado:** 4-5 horas
+- [React Native Community](https://github.com/react-native-community)
+- [Expo Discord](https://discord.gg/expo)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/react-native)
+- [Reddit r/reactnative](https://www.reddit.com/r/reactnative/)
 
-[Ver Tutorial Completo](./modulo-05-capacidades-dispositivo/README.md#tutorial-prático-app-de-localização-e-mapas)
+### **Ferramentas**
 
----
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- [Flipper](https://fbflipper.com/)
+- [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 
-## 📱 Módulo 6: Comunicação com Servidores
+## 🔗 **Navegação**
 
-### Projeto: App de Notícias
-
-**Objetivo:** Criar uma aplicação que consome APIs REST e gerencia estados de carregamento.
-
-**Funcionalidades:**
-
-- Lista de notícias
-- Busca e filtros
-- Cache offline
-- Pull-to-refresh
-
-**Tecnologias:** React Native, Fetch API, Redux
-
-**Tempo estimado:** 5-6 horas
-
-[Ver Tutorial Completo](./modulo-06-comunicacao-servidores/README.md#tutorial-prático-app-de-notícias)
-
----
-
-## 📱 Módulo 7: Native Bridging
-
-### Projeto: App de Cálculos Avançados
-
-**Objetivo:** Criar módulos nativos para operações que requerem performance.
-
-**Funcionalidades:**
-
-- Calculadora científica
-- Gráficos matemáticos
-- Processamento de dados
-- Otimizações nativas
-
-**Tecnologias:** React Native, Native Modules, iOS/Android
-
-**Tempo estimado:** 6-8 horas
-
-[Ver Tutorial Completo](./modulo-07-native-bridging/README.md#tutorial-prático-app-de-cálculos-avançados)
+- 🏠 **[README Principal](./README.md)** - Voltar ao curso principal
+- 🚀 **[Guia de Início](./INICIO.md)** - Começar o curso
+- 📚 **[Módulo 1: Fundamentos](./modulo-01-fundamentos-react/README.md)** - Primeiro módulo
 
 ---
 
-## 📱 Módulo 8: Testes
+**Desenvolvido com ❤️ para a comunidade de desenvolvimento mobile brasileira**
 
-### Projeto: App de Quiz com Testes
-
-**Objetivo:** Implementar testes automatizados em uma aplicação React Native.
-
-**Funcionalidades:**
-
-- Sistema de quiz
-- Testes unitários
-- Testes de integração
-- Cobertura de código
-
-**Tecnologias:** React Native, Jest, Detox
-
-**Tempo estimado:** 4-5 horas
-
-[Ver Tutorial Completo](./modulo-08-testes/README.md#tutorial-prático-app-de-quiz-com-testes)
-
----
-
-## 📱 Módulo 9: Preparação para Produção
-
-### Projeto: App Completo para Deploy
-
-**Objetivo:** Preparar uma aplicação completa para publicação nas lojas.
-
-**Funcionalidades:**
-
-- App de produtividade completo
-- Build para produção
-- Configurações de release
-- Testes de performance
-
-**Tecnologias:** React Native, EAS Build, App Store/Play Store
-
-**Tempo estimado:** 6-8 horas
-
-[Ver Tutorial Completo](./modulo-09-producao/README.md#tutorial-prático-app-completo-para-deploy)
-
----
-
-## 📱 Módulo 10: Ecossistema e Bibliotecas
-
-### Projeto: App Final Integrado
-
-**Objetivo:** Criar uma aplicação completa integrando todas as tecnologias aprendidas.
-
-**Funcionalidades:**
-
-- App de rede social
-- Todas as funcionalidades integradas
-- Bibliotecas do ecossistema
-- Deploy completo
-
-**Tecnologias:** React Native, Bibliotecas populares, Deploy
-
-**Tempo estimado:** 8-10 horas
-
-[Ver Tutorial Completo](./modulo-10-ecossistema/README.md#tutorial-prático-app-final-integrado)
-
----
-
-## 🛠️ Ferramentas e Recursos
-
-### Editores Recomendados
-
-- **VS Code** com extensões React Native
-- **Expo DevTools** para debugging
-- **React Native Debugger** para Redux
-
-### Dispositivos de Teste
-
-- **Expo Go** para testes rápidos
-- **Simulador iOS** (macOS)
-- **Emulador Android**
-- **Dispositivo físico** (recomendado)
-
-### Bibliotecas Essenciais
-
-- **React Navigation** - Navegação
-- **Redux Toolkit** - Gerenciamento de estado
-- **React Native Maps** - Mapas
-- **AsyncStorage** - Armazenamento local
-- **Expo** - Desenvolvimento rápido
-
----
-
-## 📚 Dicas de Estudo
-
-### 1. Siga a Ordem dos Módulos
-
-Cada módulo constrói sobre o anterior. Não pule etapas.
-
-### 2. Pratique Regularmente
-
-Faça pelo menos um projeto por semana para manter o conhecimento.
-
-### 3. Experimente Variações
-
-Após completar cada tutorial, tente criar suas próprias versões.
-
-### 4. Documente Seu Progresso
-
-Mantenha um log dos projetos que você criou e o que aprendeu.
-
-### 5. Participe da Comunidade
-
-Junte-se a grupos de React Native e compartilhe seus projetos.
-
----
-
-## 🆘 Suporte e Ajuda
-
-### Recursos de Ajuda
-
-- **Documentação Oficial:** [React Native Docs](https://reactnative.dev/)
-- **Expo Docs:** [Expo Documentation](https://docs.expo.dev/)
-- **Stack Overflow:** Para dúvidas específicas
-- **GitHub:** Para exemplos de código
-
-### Contato
-
-**Professor Jackson Sá**  
-Email: jackson.sa@etec.sp.gov.br  
-ETEC Bento Quirino - Campinas/SP
-
----
-
-## 🎓 Certificação
-
-Ao completar todos os tutoriais e projetos, você estará preparado para:
-
-- Desenvolver aplicações React Native completas
-- Gerenciar estado com Redux
-- Integrar APIs e serviços
-- Publicar apps nas lojas
-- Trabalhar em equipes de desenvolvimento mobile
-
-**Boa sorte e bons estudos! 🚀**
+_ETEC Bento Quirino - Curso Completo de React Native_
